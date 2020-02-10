@@ -24,9 +24,13 @@ function init() {
       if (index ===codes.length){
         alert("Congrats!");
         index = 0;
+              console.log(index)
+
       }
     else{
       index = 0;
+            console.log(index)
+
     }
   }
 }
