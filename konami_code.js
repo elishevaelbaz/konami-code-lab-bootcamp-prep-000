@@ -20,26 +20,17 @@ function init() {
     
     if (key === codes[index]){
       index++;
-      console.log(`index ${index}`)
-    
+
       if (index === codes.length){
         alert("Congrats!");
         index = 0;
-              console.log(`indexx ${index}`)
       }
 
     }
     else{
       index = 0;
-      console.log(`indexxx ${index}`)
-
-
     }
   })
   
 }
-  
-  
-  // function onKeyHandler(e){
-    
-  // }
+
